@@ -1,0 +1,44 @@
+.header{
+   .navbar-brand{
+      img{
+         @media screen and (max-width: 450px) {
+            width: 180px;
+         }
+      }
+   }
+
+   .signUp-top-right{
+      .dial{
+         margin-right: 50px;
+
+         .phone-icon{
+            width: 25px;
+            margin-right: 10px;
+         }
+   
+         .text{
+            color: #e9933d;
+            font-size: 12px;
+   
+            span{
+               font-size: 16px;
+               color: #000;
+            }
+         }
+      }
+   }
+
+   .sign-up-btn{
+      .button{
+         color: #284538;
+         width: 175px;
+         max-height: 50px;
+         border: 1px solid #284538;
+         border-radius: 6px;
+
+         @media screen and (max-width: 450px) {
+            width: 100px;
+         }
+      }
+   }
+}

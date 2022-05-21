@@ -1,0 +1,60 @@
+.section-one{
+
+   .text{
+      background: url(../images/image-bg-2.png)left top;
+      padding: 80px 0;
+
+      @media screen and (max-width: 767px) {
+         padding: 65px 35px;         
+      }
+      @media screen and (max-width: 500px) {
+         padding: 40px 25px;         
+      }
+
+      @media screen and (min-width: 768px) {
+         padding-right: 40px;         
+      }
+
+      .content-wrapper{
+         @media screen and (min-width: 1020px) {
+            padding-left: 65px;         
+         }
+
+         @media screen and (min-width: 1350px) {
+            padding-left: 85px;         
+         }
+
+         @media screen and (min-width: 1550px) {
+            padding-left: 185px;         
+         }
+         @media screen and (min-width: 1685px) {
+            padding-left: 270px;         
+         }
+
+         h1{
+            font-size: 42px;
+            margin-bottom: 25px;
+            font-weight: 700;
+         }
+   
+         p{
+            font-size: 17px;
+            margin-bottom: 25px;
+            font-weight: 400;
+         }
+   
+         .more-btn{
+            font-size: 15px;
+            color: #fff;
+            width: 140px;
+            height: 40px;
+            border: 1px solid #fff;
+            border-radius:6px
+         }
+      }
+   }
+
+   .image-1{
+      background: url(../images/image-1.png) no-repeat right top;
+   }
+}
